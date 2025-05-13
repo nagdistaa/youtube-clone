@@ -1,0 +1,10 @@
+.play-video{
+   flex-basis: 69%; 
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
