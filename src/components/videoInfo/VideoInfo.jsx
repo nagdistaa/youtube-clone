@@ -1,6 +1,6 @@
 import React from "react";
 // ! <----- IMPORT CSS ----->
-import './VideoInfo.css'
+import "./VideoInfo.css";
 // ! <----- IMPORT ASSETS ----->
 import like from "../../assets/like.png";
 import disLike from "../../assets/dislike.png";
