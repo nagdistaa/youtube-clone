@@ -13,17 +13,14 @@ import musicIcon from "../../assets/music.png";
 import blogsIcon from "../../assets/blogs.png";
 import profileImage from "../../assets/profile.png";
 import simonImage from "../../assets/simon.png";
-import tomImgae from "../../assets/tom.png";
 import meganImage from "../../assets/megan.png";
 import cameronImage from "../../assets/cameron.png";
 import SideLink from "../sidelink/SideLink";
 import { useSelector } from "react-redux";
-import { setCategory } from "../../features/categorySlicer";
 //! ------- START SIDEBAR COMPONENT -------
 const Sidebar = () => {
   const sidebar = useSelector((state) => state.sidebar);
-  // ! <----- Category Slicer -----> 
-  const setCategory = useSelector(setCategory)
+  
   return (
     <div className={`sidebar ${sidebar ? "" : "small-sidebar"}`}>
       {/* ----- SHORTCUT LINKS ----- */}
